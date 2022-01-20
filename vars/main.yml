@@ -3,6 +3,7 @@ region: "0"
 
 common_os_support: ["CentOS", "Ubuntu", "Amazon", "OracleLinux"]
 
+nginx_appname: "discuzq"
 nginx_certbot: True
 nginx_vhost_mode: reverse
 nginx_reverse_proxy_port: "9001"
