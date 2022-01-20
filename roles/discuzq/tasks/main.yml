@@ -11,7 +11,7 @@
     docker-compose up -d
     sleep 30
   args:
-    chdir: {{dicuzq_root_directory}}
+    chdir: "{{dicuzq_root_directory}}"
 
 - name: Recursively create directory for DiscuzQ
   file:
