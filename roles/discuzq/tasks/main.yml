@@ -37,7 +37,7 @@
 # Check version,
 - block:
   - name: Check Discuzq Version
-    shell: sudo sh -c 'echo "DiscuzQ version:  $(docker inspect discuzq | grep com.docker.compose.version)" 1>> /data/logs/install_version.txt'
+    shell: sudo sh -c 'echo "DiscuzQ version  $(docker inspect discuzq | grep com.docker.compose.version)" 1>> /data/logs/install_version.txt'
 
 # check service state
 - name: Check DiscuzQ Service
