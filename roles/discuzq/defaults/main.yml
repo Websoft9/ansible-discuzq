@@ -1,2 +1,2 @@
-dicuzq_git_url: "https://github.com/Websoft9/docker-discuzq.git"
-dicuzq_root_directory: "/data/wwwroot/discuzq"
+discuzq_git_url: "https://github.com/Websoft9/docker-discuzq.git"
+discuzq_root_directory: "/data/wwwroot/discuzq"
